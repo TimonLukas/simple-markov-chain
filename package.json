@@ -1,6 +1,6 @@
 {
   "name": "simple-markov-chain",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NPM package to easily create and use Markov chains",
   "main": "index.js",
   "scripts": {

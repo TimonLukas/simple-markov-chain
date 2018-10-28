@@ -116,6 +116,7 @@ const MarkovChain = class MarkovChain {
 
       chain._stateTransitions = parsed.stateTransitions
       chain._lastState = parsed.lastState
+      chain._isDirty = true
       return chain
     } catch (error) {
       throw new InvalidArgumentError(error.message)
